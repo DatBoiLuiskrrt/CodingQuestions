@@ -13,6 +13,9 @@ console.log(reduceExample);
 const reduceArrayExample = prices.reduce( (accumulator, value) => {
     //accumulator is the total
     // value is the current value 
+    // here we are creating a new variable in which we are assigning value and adding one the trick here is that
+    // value represent every single number inside the array so basically you are adding 1 to every element in the array
+    
     const newValue = value + 1;
     // if (newValue <= 10) {
     accumulator.push(newValue);
